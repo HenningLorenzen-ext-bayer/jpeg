@@ -24,10 +24,22 @@ pak::pak("s-u/jpeg")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows you how to read a JPEG file and plot it:
 
 ``` r
 library(jpeg)
-## basic example code
+
+# read a sample file (R logo)
+img <- readJPEG(system.file("img", "Rlogo.jpg", package = "jpeg"))
+
+# read it also in native format
+img.n <- readJPEG(system.file("img", "Rlogo.jpg", package = "jpeg"), TRUE)
+
+# if your R supports it, we'll plot it
+if (exists("rasterImage")) { # can plot only in R 2.11.0 and higher
+  plot(1:2, type = "n")
+  rasterImage(img, 1.2, 1.27, 1.8, 1.73)
+  rasterImage(img.n, 1.5, 1.5, 1.9, 1.8)
+}
 ```
 
