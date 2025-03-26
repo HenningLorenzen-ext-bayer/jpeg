@@ -41,7 +41,7 @@ pak::pak("s-u/jpeg")
 
 This is a basic example which shows you how to read a JPEG file and plot it:
 
-``` r
+```{r readme-example}
 library(jpeg)
 
 # read a sample file (R logo)
@@ -57,11 +57,3 @@ if (exists("rasterImage")) { # can plot only in R 2.11.0 and higher
   rasterImage(img.n, 1.5, 1.5, 1.9, 1.8)
 }
 ```
-
-<!--
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.
--->
-
-<!--
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
--->
