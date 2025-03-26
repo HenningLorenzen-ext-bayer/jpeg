@@ -3,6 +3,7 @@
 
 <!-- badges: start -->
 [![CRAN status](https://www.r-pkg.org/badges/version/jpeg)](https://CRAN.R-project.org/package=jpeg)
+[![CRAN checks](https://badges.cranchecks.info/summary/jpeg.svg)](https://cran.r-project.org/web/checks/check_results_jpeg.html)
 <!-- badges: end -->
 
 The goal of jpeg is to ...
