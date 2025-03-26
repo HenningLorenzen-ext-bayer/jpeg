@@ -6,14 +6,19 @@
 [![CRAN checks](https://badges.cranchecks.info/summary/jpeg.svg)](https://cran.r-project.org/web/checks/check_results_jpeg.html)
 <!-- badges: end -->
 
-The goal of jpeg is to ...
+This package provides an easy and simple way to read, write and display bitmap images stored in the JPEG format. It can read and write both files and in-memory raw vectors.
 
 ## Installation
+
+You can install the stable version of jpeg from CRAN with:
+
+``` r
+install.packages("pak")
+```
 
 You can install the development version of jpeg from [GitHub](https://github.com/) with:
 
 ``` r
-# install.packages("pak")
 pak::pak("s-u/jpeg")
 ```
 
