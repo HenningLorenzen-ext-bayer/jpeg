@@ -2,6 +2,7 @@
 # jpeg
 
 <!-- badges: start -->
+[![CRAN status](https://www.r-pkg.org/badges/version/jpeg)](https://CRAN.R-project.org/package=jpeg)
 <!-- badges: end -->
 
 The goal of jpeg is to ...
